@@ -15,7 +15,7 @@
    <div class="text-white absolute bottom-0  p-2 rounded" style="background-color:#5F9EA0;">
       <h2>Your Link</h2>
    <h3 class="mt-2 text-white">
-      <a class="hover:text-black"  href="{{request()->getSchemeAndHttpHost()}}/links/{{request()->user()->name}}">{{request()->getSchemeAndHttpHost()}}/links/{{request()->user()->name}}</a>
+      <a class="hover:text-black"  href="{{request()->getSchemeAndHttpHost()}}/links/{{request()->user()->slug}}">{{request()->getSchemeAndHttpHost()}}/links/{{request()->user()->name}}</a>
    </h3>
    </div>
    </div>

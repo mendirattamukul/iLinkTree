@@ -20,7 +20,7 @@ class linkcomponent extends Component
         }
         else
         {
-            $user= User::firstWhere('name',request("username"));
+            $user= User::firstWhere('slug',request("slug"));
             if( $user)
             {
             return view('components.linkcomponent',['links'=>Link::where("user_id", $user->id)->get(),"username"=> $user->name]);
