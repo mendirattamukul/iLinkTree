@@ -1,5 +1,5 @@
 Step1:Create database ilink <br>
-Step2:Run php artisan migrate:fresh command to migtae all the tables to your databse <br>
+Step2:Run php artisan migrate:fresh command to migtae all the tables to your databse  <br>
 Step3:Run php artisan db:seed command <br>
 Step4:Navigate to app->databse->factories->categoryFactory.php <br>
 Remove comment from line number 20 and 21 <br>
