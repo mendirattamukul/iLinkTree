@@ -4,10 +4,10 @@ Step3:Run php artisan db:seed command <br>
 Step4:Navigate to app->databse->factories->categoryFactory.php <br>
 Remove comment from line number 20 and 21 <br>
   // 'name' => "instagram", <br>
- // 'image'=>"\images\instagram.png", <br>
+ // 'image'=>"instagram.png", <br>
 and comment line number 22 and 23 <br>
  'name' => "facebook", <br>
-'image'=>"\images\facebook.png" <br><br>
+'image'=>"facebook.png" <br><br>
 
 Step5:Run php artisan db:seed command <br>
 step6:Run npm run dev command <br>
