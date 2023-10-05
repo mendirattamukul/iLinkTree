@@ -1,4 +1,4 @@
-Step1:Create database ilink
+Step1:Create database ilink<br>
 Step2:Run php artisan migrate:fresh command to migtae all the tables to your databse
 Step3:Run php artisan db:seed command
 Step4:Navigate to app->databse->factories->categoryFactory.php
